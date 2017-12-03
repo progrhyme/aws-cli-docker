@@ -5,7 +5,7 @@ RUN apk -v --update add groff less && \
     rm /var/cache/apk/*
 
 # Versions: https://pypi.python.org/pypi/awscli#downloads
-ENV AWS_CLI_VERSION 1.12.1
+ENV AWS_CLI_VERSION 1.14.2
 
 RUN pip --no-cache-dir install awscli==${AWS_CLI_VERSION}
 
