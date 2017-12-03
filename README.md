@@ -22,6 +22,16 @@ docker run -it \
   progrhyme/aws-cli <ARGS...>
 ```
 
+# Dependencies
+
+- https://hub.docker.com/_/python/
+
 # Alternatives
 
 - https://hub.docker.com/r/mesosphere/aws-cli/
+
+# License
+
+The MIT License (MIT)
+
+Copyright (c) 2017 IKEDA Kiyoshi
